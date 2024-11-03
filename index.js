@@ -1,35 +1,50 @@
-// let a = 1
-// while (a <= 10){
-// console.log(a)
-// a ++
-// }
+let i = 1
+while (i <= 10){
+    console.log(i)
+    i++
+}
 
-// for(let b = 2; b < 21; b += 1){
-// if (b % 1 !== 0){
-// continue;
-// }
-// console.log(b)
-// }
+for(let b = 2; b < 21; b += 1){
+if (b % 1 !== 0){
+continue;
+}    
+console.log(b)
+}
 
-// for(let c = 7; c < 64; c += 7){
-// console.log(c)
-// }
+for(let c = 7; c < 64; c += 7){
+console.log(c)
+}
 
-// let d = [1, 2, 3, 4, 5]
-// let total = 0
+let d = [1, 2, 3, 4, 5]
 
-// while (i = 0){
+while (i < d.length) {
+    console.log(d[i])
+    i++
+}
 
-// }
+let f = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const numbers = [1, 3, 2, 4, 8]
-let total = 0
-
-for (let i = 0; i < numbers.length; i++){
-total += numbers[i]
-console.log(total)
-console.log(numbers[i])
-    if(i === 7){
-        break
+for (let i = 1; i < f.length; i++) {
+    if (i === 7) {
+        break;
     }
+    console.log(f[i])
+}
+
+let n = 20;
+for (let i = 0; i < 30; i++) {
+    if (i === n) {
+        break;
+    }
+    console.log(i)
+}
+
+let g = 1;
+while (g <= 20) {
+    if (g % 3 === 0) {
+        g++
+        continue;
+    }
+    console.log(g)
+    g++
 }
